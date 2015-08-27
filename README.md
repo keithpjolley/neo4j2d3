@@ -20,7 +20,7 @@ is needed. and some of the d3 demo graphs expect everything to be flat and other
 both types are done.
 
 here's an example of my data from neo4j:
-
+'''
 neo4j-sh (?)$ MATCH path = (n)-[r:Manages*2]->(m) WHERE n.manager_empno=0 RETURN path LIMIT 3;
 | path
 +-
@@ -38,5 +38,4 @@ neo4j-sh (?)$ MATCH path = (n)-[r:Manages*2]->(m) WHERE n.manager_empno=0 RETURN
   ]
 +-
 3 rows
-
-
+'''
