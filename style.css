@@ -1,3 +1,8 @@
+
+/*
+  a bit garish to help me see what and where the different elements are
+*/
+
 body {
   background-color: #000;
 }
@@ -10,11 +15,6 @@ h1, h2, text {
   color: grey;
 }
 
-line.cline {
-  stroke: darkred;
-  stroke-width: 1;
-}
-
 circle.node {
   fill:   green;
   stroke: darkgreen;
@@ -25,4 +25,9 @@ circle.node {
   fill: none;
   stroke-width: 1;
   opacity: 0.5;
+}
+
+line.cline {
+  stroke: darkred;
+  stroke-width: 1;
 }
