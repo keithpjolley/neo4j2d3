@@ -1,0 +1,28 @@
+body {
+  background-color: #000;
+}
+
+svg {
+  background: #080808;
+}
+
+h1, h2, text {
+  color: grey;
+}
+
+line.cline {
+  stroke: darkred;
+  stroke-width: 1;
+}
+
+circle.node {
+  fill:   green;
+  stroke: darkgreen;
+} 
+
+.link {
+  stroke: orange;
+  fill: none;
+  stroke-width: 1;
+  opacity: 0.5;
+}
